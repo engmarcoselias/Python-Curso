@@ -9,18 +9,14 @@ menu_app["bg"] = "#BDB76B"
 #FUNÇÃO PARA ENVIAR COMANDO DE LIGAR 
 def liga_led():
     arduino.write('l'.encode())
-    x = 1
-    if x == 1:
-        l1 = "LIGADO"
+    return "LIGADO"
    
     
 
 #FUNÇÃO PARA ENVIAR COMANDO DE DESLIGAR   
 def desl_led(): 
     arduino.write('d'.encode())
-    x = 0
-    if x == 0:
-        l1 = "DESLIGADO"
+    return "DESLIGADO"
     
         
     
