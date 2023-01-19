@@ -9,18 +9,18 @@ menu_app["bg"] = "#BDB76B"
 #FUNÇÃO PARA ENVIAR COMANDO DE LIGAR 
 def liga_led():
     arduino.write('l'.encode())
-    return "LIGADO"
+    return print("LIGADO")
+   
    
     
 
 #FUNÇÃO PARA ENVIAR COMANDO DE DESLIGAR   
 def desl_led(): 
     arduino.write('d'.encode())
-    return "DESLIGADO"
+    return print("DESLIGADO")
+     
     
-        
-    
-                 
+             
 
 while True:
     try:
@@ -39,8 +39,7 @@ botao_acende.pack()
 botao_apaga = Button(menu_app, bg="#B22222", text="Apaga",command= lambda: desl_led())
 botao_apaga.pack()
 
-
-arduino.flush()
-       
+arduino.flush() 
+      
 
 menu_app.mainloop()
