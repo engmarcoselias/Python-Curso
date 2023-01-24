@@ -13,7 +13,7 @@ l = [[5,"'"],[10,"'"],[5],[6,"'"]]
 for e in l:
     barra(*e)
 
-#8.30 som\ com numeros indeterminados de parametros
+#8.30 soma com numeros indeterminados de parametros
 
 def soma(*args):
     s = 0
