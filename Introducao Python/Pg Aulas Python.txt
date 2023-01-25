@@ -1,2 +1,4 @@
-PG 189 livro
-95 PDF
+PG 193 livro
+98 PDF
+
+9.4 Processamento de um arquivo
