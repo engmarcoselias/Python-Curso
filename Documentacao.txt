@@ -7,3 +7,6 @@ https://flask-ptbr.readthedocs.io/en/latest/
 
 
 -------------Metodos magicos Python--------------
+
+https://www.youtube.com/watch?v=ZA9K9C2f9p4
+https://pythonhelp.wordpress.com/2013/03/11/os-metodos-magicos-de-python/
