@@ -10,3 +10,7 @@ https://flask-ptbr.readthedocs.io/en/latest/
 
 https://www.youtube.com/watch?v=ZA9K9C2f9p4
 https://pythonhelp.wordpress.com/2013/03/11/os-metodos-magicos-de-python/
+
+------------Functool-------------------------------------------------
+
+https://www.educative.io/answers/what-is-the-totalordering-descriptor-in-functools-in-python
