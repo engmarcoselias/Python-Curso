@@ -1,16 +1,51 @@
-----------------------Flask----------------------
-
+------------------------------------------------------------Flask--------------------------------------------------------------------------------------
+Teoria:
 https://flask-ptbr.readthedocs.io/en/latest/
 
 
-------Tinkercad Projetos-------------------------
+------------------------------------------------------Tinkercad Projetos--------------------------------------------------------------------------------
+Teoria:
 
 
--------------Metodos magicos Python--------------
 
+------------------------------------------------------Aula Python---------------------------------------------------------------------------------------
+
+-Classes, objetos
+-Atributos e methodos
+-Emcapsulamento
+-Methodo getter e setter
+-Propriedades
+-Methodos magicos
+-Functool
+-O que é (__name__ == "__main__")
+
+Teoria:
+https://www.treinaweb.com.br/blog/orientacao-a-objetos-em-python#:~:text=Para%20declarar%20um%20atributo%20em,ser%C3%A1%20criada%20em%20nosso%20programa.
+
+Exemplos e video:
+https://www.alura.com.br/conteudo/python-3-avancando-orientacao-objetos?gclid=CjwKCAiAlp2fBhBPEiwA2Q10D4k6LdxaT_HS0yFbbbEFPgY5WvvxR-7x8Au_g6BH5LHbP4AT4cpMMhoC-qYQAvD_BwE
+
+Methodos magicos:
 https://www.youtube.com/watch?v=ZA9K9C2f9p4
 https://pythonhelp.wordpress.com/2013/03/11/os-metodos-magicos-de-python/
 
-------------Functool-------------------------------------------------
-
+Functool:
 https://www.educative.io/answers/what-is-the-totalordering-descriptor-in-functools-in-python
+
+
+__name__ == "__main__":
+https://www.alura.com.br/artigos/o-que-significa-if-name-main-no-python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
