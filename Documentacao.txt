@@ -1,13 +1,3 @@
-------------------------------------------------------------Flask--------------------------------------------------------------------------------------
-Teoria:
-https://flask-ptbr.readthedocs.io/en/latest/
-
-
-------------------------------------------------------Tinkercad Projetos--------------------------------------------------------------------------------
-Teoria:
-
-
-
 ------------------------------------------------------Aula Python---------------------------------------------------------------------------------------
 
 -Classes, objetos
@@ -35,6 +25,33 @@ https://www.educative.io/answers/what-is-the-totalordering-descriptor-in-functoo
 
 __name__ == "__main__":
 https://www.alura.com.br/artigos/o-que-significa-if-name-main-no-python
+
+
+--------------------------------------------------Banco de dados SQLlite3--------------------------------------------------------------------------------
+-SQLlite3
+-Comandos
+-Video Aula
+
+
+Documentação:
+https://www.sqlite.org/
+
+Comandos resumidos:
+http://pythonclub.com.br/guia-rapido-comandos-sqlite3.html
+
+Aula:
+https://www.youtube.com/watch?v=c43-mTD-8XM&list=PLesCEcYj003QiX5JaM24ytHrHiOJknwog
+
+
+
+------------------------------------------------------------Flask--------------------------------------------------------------------------------------
+Teoria:
+https://flask-ptbr.readthedocs.io/en/latest/
+
+
+------------------------------------------------------Tinkercad Projetos--------------------------------------------------------------------------------
+Teoria:
+
 
 
 
