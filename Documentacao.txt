@@ -29,12 +29,16 @@ https://www.alura.com.br/artigos/o-que-significa-if-name-main-no-python
 
 --------------------------------------------------Banco de dados SQLlite3--------------------------------------------------------------------------------
 -SQLlite3
+-Software-SQLite Estudio
 -Comandos
 -Video Aula
 
 
 Documentação:
 https://www.sqlite.org/
+
+Software:
+https://sqlitestudio.pl/
 
 Comandos resumidos:
 http://pythonclub.com.br/guia-rapido-comandos-sqlite3.html
