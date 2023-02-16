@@ -32,6 +32,7 @@ https://www.alura.com.br/artigos/o-que-significa-if-name-main-no-python
 -Software-SQLite Estudio
 -Comandos
 -Video Aula
+-instrução with
 
 
 Documentação:
@@ -45,6 +46,9 @@ http://pythonclub.com.br/guia-rapido-comandos-sqlite3.html
 
 Aula:
 https://www.youtube.com/watch?v=c43-mTD-8XM&list=PLesCEcYj003QiX5JaM24ytHrHiOJknwog
+
+with como usar:
+https://horadecodar.com.br/2020/04/20/para-que-serve-o-with-no-python-como-utilizar/
 
 
 
