@@ -51,6 +51,10 @@ with como usar:
 https://horadecodar.com.br/2020/04/20/para-que-serve-o-with-no-python-como-utilizar/
 
 
+SQL injection:
+https://www.devmedia.com.br/sql-injection/6102
+
+
 
 ------------------------------------------------------------Flask--------------------------------------------------------------------------------------
 Teoria:
