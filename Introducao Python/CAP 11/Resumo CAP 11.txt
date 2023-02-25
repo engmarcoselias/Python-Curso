@@ -1,0 +1,1 @@
+Finalizando capitulo 11 com relação a banco de dados SQL lite, o ultimo exercicio ficou inacabado será revisitado em caso de duvidas durante projetos, falta criar as tabelas referente a listagem 11.14 pag 292.

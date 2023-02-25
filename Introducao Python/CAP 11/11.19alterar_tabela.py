@@ -1,6 +1,6 @@
 #11.18alterando a tabela
 
-#Em SQL o comando apra alterar tabela é (alter table)
+#Em SQL o comando para alterar tabela é (alter table)
 
 '''O comado alter table do SQL lite e limitado temos que alterar um cmapo de cda vez diferente de outros bancos de dados'''
 
