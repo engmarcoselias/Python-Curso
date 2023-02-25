@@ -10,6 +10,8 @@ INTRODUÇÂO:
 -Functool
 -O que é (__name__ == "__main__")
 
+---------------------------------------------------Estudos Futuros---------------------------------------------------------------------------------------
+
 POO:
 -Herança
 -Polimorfismo
@@ -19,7 +21,7 @@ WEB:
 -pip
 -Ambiente virtual
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Teoria POO:
 https://www.treinaweb.com.br/blog/orientacao-a-objetos-em-python#:~:text=Para%20declarar%20um%20atributo%20em,ser%C3%A1%20criada%20em%20nosso%20programa.
 
