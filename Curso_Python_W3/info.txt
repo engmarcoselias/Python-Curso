@@ -1,0 +1,10 @@
+--------------------------------------CURSO DE PYTHON W3SCHOOLS------------------------------------
+
+--link:
+https://www.w3schools.com/python/python_intro.asp
+
+
+--Ultima aula--
+
+https://www.w3schools.com/python/python_strings.asp
+

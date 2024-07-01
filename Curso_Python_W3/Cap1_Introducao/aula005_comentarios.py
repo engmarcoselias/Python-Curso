@@ -1,0 +1,4 @@
+# Comentarios podem ser usados para explicar o codigo, tornar o codigo mais legivel, e não são executados.
+
+'''Python não tem realmente uma sintaxe para comentários multilinha.
+Para adicionar um comentario multilinha você pode inserir # para cada linha ou, não exatamente como pretendido, você pode usar uma string multilinha. Como p python irá ignorar literais string que não estão atribuidos a uma variavel,você pode adicionar uma string multilinha(aspas triplas) em seu código e colocar seu comentario dentro dela. Enquanto a string não for atribuída a uma variável, o Python lerá o código, mas o ignorará, e você terá feito um comentário multilinha.'''
