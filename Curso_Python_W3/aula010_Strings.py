@@ -256,3 +256,45 @@ print(txt)
 
 txt = f"The price is {20 * 59} dollars"
 print(txt)
+
+
+#------------------------CARACTER ESCAPE---------------------#
+
+#Para inserir caracteres ilegais em uma string, use um caractere de escape.
+
+#Um caractere de escape é uma barra invertida \seguida pelo caractere que você deseja inserir.
+
+#Um exemplo de caractere ilegal são aspas duplas dentro de uma string cercada por aspas duplas:
+
+#ExemploObtenha seu próprio servidor Python
+#Você receberá um erro se usar aspas duplas dentro de uma string cercada por aspas duplas:
+
+#Exemplo de erro
+'''
+
+txt = "We are the so-called "Vikings" from the north."
+
+'''
+
+#Para corrigir esse problema, use o caractere de escape \":
+
+#Exemplo
+#O caractere de escape permite que você use aspas duplas quando normalmente não seria permitido:
+
+txt = "We are the so-called \"Vikings\" from the north."
+
+
+#Caracteres de escape
+
+#Outros caracteres de escape usados ​​em Python:
+
+#Code	Result	Try it
+#  \'	Single Quote	
+#  \\	Backslash	
+#  \n	New Line	
+#  \r	Carriage Return	
+#  \t	Tab	
+#  \b	Backspace	
+#  \f	Form Feed	
+#  \ooo	Octal value	
+#  \xhh	Hex value
