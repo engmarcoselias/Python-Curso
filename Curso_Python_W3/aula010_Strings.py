@@ -1,5 +1,65 @@
 #-------------------------------STRINGS---------------------------#
 
+#Exemplo
+print("Hello")
+print('Hello')
+
+#Citações dentro de citações
+
+#Você pode usar aspas dentro de uma string, desde que elas não correspondam às aspas ao redor da string:
+
+#Exemplo
+print("It's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"')
+
+
+#Atribuir String a uma Variável
+
+#A atribuição de uma string a uma variável é feita com o nome da variável seguido por um sinal de igual e a string:
+
+#xemplo
+a = "Hello"
+print(a)
+
+
+#Strings multilinha
+
+#Você pode atribuir uma string multilinha a uma variável usando três aspas:
+
+#Exemplo
+#Você pode usar três aspas duplas:
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+#Ou três aspas simples:
+
+#Exemplo
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+
+#Nota: no resultado, as quebras de linha são inseridas na mesma posição do código.
+
+#------------------STRINGS SÃO MATRIZES-----------#
+
+#omo muitas outras linguagens de programação populares, strings em Python são matrizes de bytes que representam caracteres Unicode.
+
+#Entretanto, Python não tem um tipo de dado de caractere, um único caractere é simplesmente uma string com comprimento 1.
+
+#colchetes podem ser usados ​​para acessar elementos da string.#
+
+#Exemplo
+#Pegue o caractere na posição 1 (lembre-se que o primeiro caractere tem a posição 0):
+
+a = "Hello, World!"
+print(a[1])
 
 
 #Looping através de uma string
@@ -7,35 +67,36 @@
 #Como strings são matrizes, podemos percorrer os caracteres em uma string com um forloop.
 
 #Exemplo
-
 #Faça um loop pelas letras da palavra "banana":
 
 for x in "banana":
   print(x)
 
 
-#Comprimento da string
 
-#Para obter o comprimento de uma string, use a função len().
+#Comprimento da String
+
+#Para obter o comprimento de uma string, use a len()função.
 
 #Exemplo
-
-#A len()função retorna o comprimento de uma string:
+#
+# A len()função retorna o comprimento de uma string:
 
 a = "Hello, World!"
 print(len(a))
 
+
 #Verificar sequência de caracteres
+
 #Para verificar se uma determinada frase ou caractere está presente em uma string, podemos usar a palavra-chave in.
 
 #Exemplo
-
 #Verifique se "free" está presente no texto a seguir:
 
 txt = "The best things in life are free!"
 print("free" in txt)
 
-#Use-o em uma ifdeclaração:
+#Use-o em uma if declaração:
 
 #Exemplo
 
@@ -298,3 +359,106 @@ txt = "We are the so-called \"Vikings\" from the north."
 #  \f	Form Feed	
 #  \ooo	Octal value	
 #  \xhh	Hex value
+
+
+#----------------------------------Methodos de String----------------------------#
+
+
+#Métodos de String
+
+#O Python tem um conjunto de métodos integrados que você pode usar em strings.
+
+#Nota: Todos os métodos de string retornam novos valores. Eles não alteram a string original.
+
+'''
+capitalize()	Converte o primeiro caractere para maiúsculo
+
+casefold()	Converte string em minúsculas
+
+center()	Retorna uma string centralizada
+
+count()	Retorna o número de vezes que um valor especificado ocorre em uma string
+
+encode()	Retorna uma versão codificada da string
+
+endswith()	Retorna verdadeiro se a string terminar com o valor especificado
+
+expandtabs()	Define o tamanho da tabulação da string
+
+find()	Pesquisa a string por um valor especificado e retorna a posição onde ele foi encontrado
+
+format()	Formata valores especificados em uma string
+
+format_map()	Formats specified values in a string
+
+index()	Searches the string for a specified value and returns the position of where it was found
+
+isalnum()	Returns True if all characters in the string are alphanumeric
+
+isalpha()	Returns True if all characters in the string are in the alphabet
+
+isascii()	Returns True if all characters in the string are ascii characters
+
+isdecimal()	Returns True if all characters in the string are decimals
+
+isdigit()	Returns True if all characters in the string are digits
+
+isidentifier()	Returns True if the string is an identifier
+
+islower()	Returns True if all characters in the string are lower case
+
+isnumeric()	Returns True if all characters in the string are numeric
+
+isprintable()	Returns True if all characters in the string are printable
+
+isspace()	Returns True if all characters in the string are whitespaces
+
+istitle()	Returns True if the string follows the rules of a title
+
+isupper()	Returns True if all characters in the string are upper case
+
+join()	Joins the elements of an iterable to the end of the string
+
+ljust()	Returns a left justified version of the string
+
+lower()	Converts a string into lower case
+
+lstrip()	Returns a left trim version of the string
+
+maketrans()	Returns a translation table to be used in translations
+
+partition()	Returns a tuple where the string is parted into three parts
+
+replace()	Returns a string where a specified value is replaced with a specified value
+
+rfind()	Searches the string for a specified value and returns the last position of where it was found
+
+rindex()	Searches the string for a specified value and returns the last position of where it was found
+
+rjust()	Returns a right justified version of the string
+
+rpartition()	Returns a tuple where the string is parted into three parts
+
+rsplit()	Splits the string at the specified separator, and returns a list
+
+rstrip()	Returns a right trim version of the string
+
+split()	Splits the string at the specified separator, and returns a list
+
+splitlines()	Splits the string at line breaks and returns a list
+
+startswith()	Returns true if the string starts with the specified value
+
+strip()	Returns a trimmed version of the string
+
+swapcase()	Swaps cases, lower case becomes upper case and vice versa
+
+title()	Converts the first character of each word to upper case
+
+translate()	Returns a translated string
+
+upper()	Converts a string into upper case
+
+zfill()	Fills the string with a specified number of 0 values at the beginning
+
+'''
