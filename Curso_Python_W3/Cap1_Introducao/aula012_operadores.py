@@ -115,4 +115,61 @@ x = ["apple", "banana"]
 print("banana" in x)
 
 
+#Operadores Bitwise Python
+
+
+#Operadores bit a bit são usados ​​para comparar números (binários):
+
+
+# & 	AND	Sets each bit to 1 if both bits are 1	x & y	
+
+# |	OR	Sets each bit to 1 if one of two bits is 1	x | y	
+
+# ^	XOR	Sets each bit to 1 if only one of two bits is 1	x ^ y	
+
+# ~	NOT	Inverts all the bits	~x	
+
+# <<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off	x << 2	
+
+# >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 
+
+
+
+#operador precedente
+
+#A precedência do operador descreve a ordem na qual as operações são executadas.
+
+#Exemplo
+
+#Parênteses têm a maior precedência, o que significa que as expressões dentro deles devem ser avaliadas primeiro:
+
+print((6 + 3) - (6 + 3))
+
+#A ordem de precedência é descrita na tabela abaixo, começando pela precedência mais alta no topo:
+
+'''
+()	Parentheses	
+**	Exponentiation	
++x  -x  ~x	Unary plus, unary minus, and bitwise NOT	
+*  /  //  %	Multiplication, division, floor division, and modulus	
++  -	Addition and subtraction	
+<<  >>	Bitwise left and right shifts	
+&	Bitwise AND	
+^	Bitwise XOR	
+|	Bitwise OR	
+==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+not	Logical NOT	
+and	AND	
+or	OR
+'''
+
+#Se dois operadores tiverem a mesma precedência, a expressão será avaliada da esquerda para a direita.
+
+#Exemplo
+
+#Adição +e subtração -têm a mesma precedência e, portanto, avaliamos a expressão da esquerda para a direita:
+
+print(5 + 4 - 7 + 3)
+
+
 
