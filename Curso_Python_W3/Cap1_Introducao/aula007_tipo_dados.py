@@ -8,7 +8,7 @@ Python tem os seguintes tipos de dados integrados por padrão, nestas categorias
 
 #Tipo de texto:	str
 #Tipos numéricos:	int, float, complex
-#ipos de sequência:	list, tuple, range
+#Tipos de sequência:	list, tuple, range
 #Tipo de mapeamento:	dict
 #Tipos de conjunto:	set,frozenset
 #Tipo booleano:	bool
