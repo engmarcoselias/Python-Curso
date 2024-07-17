@@ -55,3 +55,138 @@ while i < len(thislist):
 
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
+
+
+#-------------COMPREENSÃO DE LISTA-------------------#
+
+#Compreensão de lista
+
+#A compreensão de lista oferece uma sintaxe mais curta quando você deseja criar uma nova lista com base nos valores de uma lista existente.
+
+#Exemplo:
+
+#Com base em uma lista de frutas, você quer uma nova lista, contendo apenas as frutas com a letra "a" no nome.
+
+#Sem compreensão de lista, você terá que escrever uma fordeclaração com um teste condicional dentro:
+
+
+#Exemplo
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+
+#Com a compreensão de lista você pode fazer tudo isso com apenas uma linha de código:
+
+#Exemplo
+
+fruits = ["apple","banana","cherry", "kiwi","mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+
+#A Sintaxe
+
+#newlist = [expression for item in iterable if condition == True]
+
+#O valor de retorno é uma nova lista, deixando a lista antiga inalterada.
+
+#Condição
+
+#A condição é como um filtro que aceita apenas os itens que valem True.
+
+#Exemplo
+#Aceite apenas itens que não sejam "apple":
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if x != "apple"]
+
+print(newlist)
+
+#A condição if x != "apple"  retornará Truepara todos os elementos, exceto "maçã", fazendo com que a nova lista contenha todas as frutas, exceto "maçã".
+
+#A condição é opcional e pode ser omitida:
+
+#Exemplo
+#Sem if declaração:
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits]
+
+print(newlist)
+
+
+#Iterável
+
+#O iterável pode ser qualquer objeto iterável, como uma lista, tupla, conjunto etc.
+
+#Exemplo
+
+# Você pode usar a range()função para criar um iterável:
+
+newlist = [x for x in range(10)]
+
+print(newlist)
+
+
+#Mesmo exemplo, mas com uma condição:
+
+#Exemplo
+
+#Aceite apenas números menores que 5:
+
+newlist = [x for x in range(10) if x < 5]
+
+print(newlist)
+
+
+#Expressão
+
+#A expressão é o item atual na iteração, mas também é o resultado, que você pode manipular antes que ele termine como um item de lista na nova lista:
+
+#Exemplo
+
+#Defina os valores na nova lista para letras maiúsculas:
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x.upper() for x in fruits]
+
+print(newlist)
+
+#Você pode definir o resultado como quiser:
+
+#Exemplo
+
+#Defina todos os valores na nova lista como 'hello':
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = ['hello' for x in fruits]
+
+print(newlist)
+
+#A expressão também pode conter condições, não como um filtro, mas como uma forma de manipular o resultado:
+
+#Exemplo
+#Retorne "laranja" em vez de "banana":
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x if x != "banana" else "orange" for x in fruits]
+
+print(newlist)
+
+'''A expressão no exemplo acima diz:
+
+"Devolva o item se não for banana, se for banana devolva laranja".'''
