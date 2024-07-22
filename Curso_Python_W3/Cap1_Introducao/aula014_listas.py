@@ -190,3 +190,85 @@ print(newlist)
 '''A expressão no exemplo acima diz:
 
 "Devolva o item se não for banana, se for banana devolva laranja".'''
+
+
+
+#----------------LISTAS DE CLASSIFICAÇÃO(SORT LIST)---------------#
+
+
+#Classificar lista alfanumericamente
+
+#Objetos de lista têm um sort()método que classificará a lista alfanumericamente, em ordem crescente, por padrão:
+
+#Exemplo
+#Classifique a lista em ordem alfabética:
+
+thislist = ["orange", "mango", "kiwi", "pineaple", "banana"]
+
+thislist.sort()
+print(thislist)
+
+
+#Exemplo
+#Classifique a lista numericamente:
+
+thislist = [100, 50, 65, 82, 23]
+
+thislist.sort()
+print(thislist)
+
+#Personalizar função de classificação
+
+
+#Você também pode personalizar sua própria função usando o argumento de palavra-chave .key = function
+
+#A função retornará um número que será usado para classificar a lista (o menor número primeiro):
+
+#Exemplo
+#Classifique a lista com base na proximidade do número de 50:
+
+def myfunction(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunction)
+print(thislist)
+
+
+#Classificação sem distinção entre maiúsculas e minúsculas
+
+#Por padrão, o sort()método diferencia maiúsculas de minúsculas, resultando em todas as letras maiúsculas sendo classificadas antes das letras minúsculas:
+
+#Exemplo
+
+#A classificação com distinção entre maiúsculas e minúsculas pode gerar um resultado inesperado:
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+
+
+
+#Felizmente, podemos usar funções integradas como funções-chave ao classificar uma lista.
+
+#Então, se você quiser uma função de classificação que não diferencia maiúsculas de minúsculas, use str.lower como uma função-chave:
+
+#Exemplo
+
+#Execute uma classificação da lista que não diferencia maiúsculas de minúsculas:
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+#Ordem reversa
+#E se você quiser inverter a ordem de uma lista, independentemente do alfabeto?
+
+# reverse()método inverte a ordem de classificação atual dos elementos.
+
+#Exemplo
+#Inverta a ordem dos itens da lista:
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
