@@ -6,4 +6,4 @@ https://www.w3schools.com/python/python_intro.asp
 
 --Ultima aula--
 
-https://www.w3schools.com/python/python_conditions.asp
+https://www.w3schools.com/python/python_lambda.asp
